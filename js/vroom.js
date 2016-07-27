@@ -65,7 +65,7 @@ $(document).ready(function() {
 //------------------  Handle on click events of rows in tables --------------------------------------------------//
     $('.personDataTable').on('click', '.opener',function(e) {    
         var mi = parseInt($(this).attr("value"));
-        mi = mi/1000;
+        mi = 110-parseInt(mi%100);
          $( ".dialog" ).dialog( "open" );
 		var	miNum = parseInt(mi);
 		if ( (mi <= 120) && !isNaN(miNum) ){
