@@ -1,0 +1,115 @@
+body {
+    text-align: right;
+    font-size: 100%;
+/*    background: #000;*/
+
+}
+
+#errmsg {
+    color: #ff0000;
+    display:none;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+input {
+	border: 1px solid #292929;
+}
+
+label, input, p {
+    font-size: 22px;
+    font-weight: 200 !important;
+}
+
+#gauge {
+/*    float:left;*/
+    margin-left:40px;
+    width: 334px;
+    position: relative;
+    height: 260px;
+    background: #000 url(../images/speedometer-2.png) no-repeat;
+}
+
+#needle {
+    height: 5px;
+    width: 148px;
+    background: #ff0200;
+    position: absolute;
+    bottom: 97px;
+    left: 18px;
+}
+
+#numbers {
+    width: 140px;
+    height: 30px;
+    background: #191919;
+    position: absolute;
+    bottom: 10px;
+    left: 85px;
+    color: #fff;
+    font-size: 1.8em;
+    line-height: 1.34em; 
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px 10px 5px;
+    border: 1px solid #292929;
+}
+
+#circle {
+    width: 79px;
+    height: 79px;
+    background: url(../images/circle-3.png)no-repeat;
+    bottom: 59px;
+    left: 127px;
+    position: absolute;
+}
+
+td{
+    text-align: start;
+}
+
+tr td{
+    cursor: pointer;
+}
+.left{
+    float: left;
+    margin: 25px 122px;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: beige !important;
+}
+
+tbody tr:nth-child(even) {
+   background-color: azure !important;
+}
+
+thead tr{
+    background-color: black;
+    color: whitesmoke;
+}
+.right {
+    float: right;
+    margin: 25px 122px 0px 22px;
+}
+
+.ui-widget-header,.ui-state-default, ui-button{
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+            
+}
+
+.ui-dialog .ui-dialog-content{
+    background: black !important;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px !important;
+    font-size: 20px !important;
+}
